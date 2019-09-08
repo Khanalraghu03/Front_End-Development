@@ -1,0 +1,127 @@
+nav {
+    color: #FFFFFF;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+    font-size: 1em;
+    word-spacing: 4em;
+    line-height: 175%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background: #000000 radial-gradient(#646464, #412218);
+    font-weight: bold;
+}
+
+#image {
+    height: 100px;
+    width: 100px;
+}
+
+body {
+    /*color:#191970;*/
+    font-family: Arial, Verdana, san-serif, serif;
+    background: #aeaed4 url("Images/background-image.jpg");
+    }
+
+
+
+h1 {
+    color: #FFFFFF;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+    line-height: 200%;
+    word-spacing: .3em;
+    text-shadow: 1px 1px 3px #000000;
+    border: 3px ridge;
+    border-radius: 20px;
+    background: #b290cc url(Images/focus.jpg);
+    }
+
+h2 {
+    color: red;
+    font-size: 100px;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+    line-height: 150%;
+    border-bottom: 2px dashed #191970;
+    border-radius: 20px;
+    background: #b290cc url(Images/focus.jpg);}
+
+h3 {
+    color: green;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 150%;
+    border-bottom: 2px dashed #191970;
+    border-radius: 20px;
+    background: #b290cc url(Images/focus.jpg);
+
+}
+
+a {
+    color: #FFFFFF;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 200%;
+    border-radius: 20px;
+}
+
+.activities_ul {
+    list-style-image: url(Images/ggc.jpg);
+    font-size: 16px;
+    color: white;
+}
+
+p  {font-size: .9em;
+    text-indent: 3em;}
+
+
+footer {font-size: 0.8em;
+    font-style: italic;
+    text-align: center;}
+
+#phone_number {font-style: italic;
+    font-weight: bold;}
+
+figure {display: block;
+    margin: auto;
+    width: 350px;
+    padding: 5px;
+    border: 1px solid #000000;}
+
+figcaption {text-align: center;
+    font-family: Papyrus, fantasy;}
+small {
+    color: #FFFFFF;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 200%;
+    border-radius: 20px;
+}
+
+.homepage {
+    background: #b290cc url(Images/focus.jpg);
+    list-style-type: upper-roman;
+    font-size: 16px;
+    color: #ffda70;
+    font-weight: bold;
+
+}
+
+.project {
+    background: #b290cc url(Images/focus.jpg);
+    list-style-type: decimal;
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+}
+
+dd {
+    text-indent: 3em;
+    color: #ff8a98;
+}
+
+
+
+
+
+
+

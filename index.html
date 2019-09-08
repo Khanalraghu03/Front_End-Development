@@ -3,30 +3,115 @@
 <head>
     <meta charset="utf-8">
     <meta name="generator" content="AlterVista - Editor HTML"/>
-    <title></title>
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="index.css">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 </head>
+
+
 <body>
+<nav>
+    <a href="index.html"><img id="image" src="Images/home.gif"></a>
+    <a href="in-class_activities.html"><img src="Images/in-class_activities.gif"></a>
+    <a href="labs.html"><img src="Images/labs.gif"></a>
+    <a href="projects.html"><img src="Images/projects.gif"></a>
+</nav>
 <h1>Welcome to my ITEC 2130 Web Site!</h1>
-<h2> In-class Activities</h2>
-<h3> Chapter 1 Introduction</h3>
-<!-- <a></a> => anchor tag-->
-<a href="Activities/8-15.html">8-15</a>
 
-<h3> Chapter 2 HTML Basics</h3>
-<ul>
-    <li><a href="Activities/8-20.html">8-20</a></li>
-    <li><a href="Activities/8-22.html">8-22</a></li>
-    <li><a href="Activities/8-29.html">8-29</a></li>
-    <li><a href="Activities/9-03.html">9-03</a></li>
+<main>
+    <div class="container">
+
+        <div>
+            <h2>ITEC Courses</h2>
+            <ul class="homepage">
+                <li>Introduction to Computing</li>
+                <li>Digital Media</li>
+                <li>Programming Fundamentals</li>
+                <li>Intermediate Programming</li>
+                <li>Advanced Programming</li>
+                <li>Intro to Networks</li>
+                <li>Intro to Databases</li>
+                <li>Information Security</li>
+                <li>Operating Systems</li>
+                <li>Systems Analysis & Design</li>
+                <li>Professional Practice & Ethics</li>
+                <li>Software Development I</li>
+            </ul>
+        </div>
+
+        <div class="container-fluid">
+            <h2>ITEC Skills</h2>
+
+            <div class="homepage">
+                <h4> Frontend: </h4>
+                <ul class="activities_ul">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+
+                <h4> Backend: </h4>
+                <ul class="activities_ul">
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>Node.js</li>
+                </ul>
+
+                <h4> Operating System:</h4>
+                <ul class="activities_ul">
+                    <li>Linux</li>
+                    <li>Windows</li>
+                    <li>MacOS</li>
+                </ul>
+
+                <h4> Networking:</h4>
+                <ul class="activities_ul">
+                    <li>Network Security</li>
+                    <li>Internet Protocol Suite</li>
+                </ul>
+
+                <h4> Version Control:</h4>
+                <ul class="activities_ul">
+                    <li>GitHub</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="container homepage">
+            <h2>ITEC Projects</h2>
+            <dl>
+                <dt>Faculty Course Scheduler</dt>
+                    <dd>Created a platform for faculty to pick courses the faculty would like to
+                        teach according to their schedule that fits them. A moderator would check the schedule picked
+                        by the faculty to see if there is any conflict. Administrator could add/remove moderators and
+                        had all the administrator privileges.</dd>
+                <dt>Grizzly Parking</dt>
+                    <dd>Mobile app that is meant to help GGC student navigate to parking lot where there might
+                        potentially be open parking available. </dd>
+                <dt>RecAPlant</dt>
+                    <dd>Another mobile app that is meant to determine whether a plant is poisonous or not using
+                    the help of machine learning and artificial intelligence. </dd>
+            </dl>
+
+        </div>
 
 
-</ul>
-<h2> Labs </h2>
-<ul>
-    <li><a href="Labs/Lab1_home.html">Lab 1</a></li>
-</ul>
-<h2> Projects </h2>
+    </div>
 
-<p>&nbsp;</p>
+</main>
+
+<footer class="card-footer">
+    <small ><i>Copyright &copy; 2019 Web Technologies</i></small><br>
+    <small ><i><a href="mailto:raghukhanal@khanal.com">raghukhanal@khanal.com</a></i></small><br>
+</footer>
+
 </body>
 </html>
