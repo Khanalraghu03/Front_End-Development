@@ -2,34 +2,46 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="generator" content="AlterVista - Editor HTML"/>
+    <!--<meta name="generator" content="AlterVista - Editor HTML"/>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="Images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="index.css">
     <title>Welcome</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
           crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
 </head>
 
 
 <body>
-<nav>
-    <a href="index.html"><img id="image" src="Images/home.gif"></a>
-    <a href="in-class_activities.html"><img src="Images/in-class_activities.gif"></a>
-    <a href="labs.html"><img src="Images/labs.gif"></a>
-    <a href="projects.html"><img src="Images/projects.gif"></a>
-</nav>
-<h1>Welcome to my ITEC 2130 Web Site!</h1>
 
-<main>
-    <div class="container">
+<div class ="nav">
+    <ul id="ul">
+        <li class="li">
+            <a href="index.html"><img class="image" src="Images/home.gif"></a>
+        </li>
+        <hr>
+        <li class="li">
+            <a href="in-class_activities.html"><img class="image" src="Images/c-activity.png"></a>
+        </li>
+        <hr>
+        <li class="li">
+            <a href="labs.html"><img class="image" src="Images/lab.jpg"></a>
+        </li>
+        <hr>
+        <li class="li">
+            <a href="projects.html"><img class="image" src="Images/project.jpg"></a>
+        </li>
+    </ul>
 
-        <div class="homepage">
-            <h2>ITEC Courses</h2>
-            <ul class="">
+</div>
+
+<div class="main">
+    <h1>Welcome to my ITEC 2130 Web Site!</h1>
+    <div>
+        <h2 class="alert-link list-group-item container">ITEC Courses</h2>
+        <div class="container">
+            <ul class="homepage">
                 <li>Introduction to Computing</li>
                 <li>Digital Media</li>
                 <li>Intro to Info Systems</li>
@@ -46,19 +58,18 @@
             </ul>
         </div>
 
-        <div class="container-fluid homepage">
-            <h2>ITEC Skills</h2>
-
-            <div >
+        <h2 class="alert-link list-group-item container">ITEC Skills</h2>
+        <div class="container activities_ul">
+            <div class="homepage">
                 <h4> Frontend: </h4>
-                <ul class="activities_ul">
+                <ul>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
                 </ul>
 
                 <h4> Backend: </h4>
-                <ul class="activities_ul">
+                <ul>
                     <li>Java</li>
                     <li>Python</li>
                     <li>C</li>
@@ -66,29 +77,28 @@
                 </ul>
 
                 <h4> Operating System:</h4>
-                <ul class="activities_ul">
+                <ul>
                     <li>Linux</li>
                     <li>Windows</li>
                     <li>MacOS</li>
                 </ul>
 
                 <h4> Networking:</h4>
-                <ul class="activities_ul">
+                <ul>
                     <li>Network Security</li>
                     <li>Internet Protocol Suite</li>
                 </ul>
 
                 <h4> Version Control:</h4>
-                <ul class="activities_ul">
+                <ul>
                     <li>GitHub</li>
                 </ul>
-
             </div>
         </div>
 
-        <div class="container homepage">
-            <h2>ITEC Projects</h2>
-            <dl>
+        <h2 class="alert-link list-group-item container">ITEC Projects</h2>
+        <div class="container">
+            <dl class="homepage">
                 <dt>Faculty Course Scheduler</dt>
                     <dd>Created a platform for faculty to pick courses the faculty would like to
                         teach according to their schedule that fits them. A moderator would check the schedule picked
@@ -101,13 +111,10 @@
                     <dd>Another mobile app that is meant to determine whether a plant is poisonous or not using
                     the help of machine learning and artificial intelligence. </dd>
             </dl>
-
         </div>
 
-
     </div>
-
-</main>
+</div>
 
 <footer class="card-footer">
     <small ><i>Copyright &copy; 2019 Web Technologies</i></small><br>

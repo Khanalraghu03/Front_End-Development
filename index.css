@@ -1,17 +1,19 @@
 nav {
-    color: #FFFFFF;
-    font-family: Georgia, "Times New Roman", serif;
-    text-align: center;
-    font-size: 1em;
-    word-spacing: 4em;
-    line-height: 175%;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    background: #000000 radial-gradient(#646464, #412218);
-    font-weight: bold;
+    /*color: #FFFFFF;*/
+    /*font-family: Georgia, "Times New Roman", serif;*/
+    /*text-align: center;*/
+    /*font-size: 1em;*/
+    /*word-spacing: 4em;*/
+    /*line-height: 175%;*/
+    /*padding-top: 10px;*/
+    /*padding-bottom: 5px;*/
+
+    /*background: #000000 radial-gradient(#646464, #412218);*/
+    /*font-weight: bold;*/
+    /*display: block;*/
 }
 
-#image {
+.image {
     height: 100px;
     width: 100px;
 }
@@ -19,14 +21,12 @@ nav {
 body {
     /*color:#191970;*/
     font-family: Arial, Verdana, san-serif, serif;
+    margin: 0;
     background: #aeaed4 url("Images/background-image.jpg");
-    /*background-image: url("../Images/icon.png");*/
-    background-repeat: no-repeat;
-    background-size: 4000px;
+    background-attachment: fixed;
     background-position: center;
-    }
 
-
+}
 
 h1 {
     color: #FFFFFF;
@@ -41,7 +41,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: 4000px;
     background-position: center;
-    }
+}
 
 h2 {
     color: red;
@@ -49,8 +49,9 @@ h2 {
     font-family: Georgia, "Times New Roman", serif;
     text-align: center;
     line-height: 150%;
-    border-bottom: 2px dashed #191970;
+    /*border-bottom: 2px dashed #191970;*/
     border-radius: 20px;
+    /*background: #b290cc url(Images/focus.jpg);*/
     background: #b290cc url(Images/focus.jpg);
     background-repeat: no-repeat;
     background-size: 4000px;
@@ -58,7 +59,7 @@ h2 {
 }
 
 h3 {
-    color: green;
+    color: #ffda70;
     font-weight: bold;
     font-size: 100px;
     font-family: Georgia, "Times New Roman", serif;
@@ -142,9 +143,40 @@ dd {
     color: #ff8a98;
 }
 
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+}
 
+#ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    width: 150px;
 
+}
 
+.li a {
+    display: block;
+    font-weight: bold;
+    color: #000;
+    padding: 16px 16px;
+    text-decoration: none;
 
+}
 
+.li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.nav {
+    margin: 10px;
+    margin-top: 100px;
+    background: #000000 radial-gradient(#646464, #412218);
+    /*display: block;*/
+    position: fixed;
+    border-radius: 20px;
+}
 
