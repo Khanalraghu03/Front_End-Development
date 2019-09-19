@@ -1,0 +1,60 @@
+h1 { color: #ffffff;
+    text-indent: 20px;
+    line-height: 200%;
+    margin-bottom: 0;
+    background: #000033 url(./lab2_images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-position:right;
+    padding: 0;}
+
+
+nav {background-color: #90C7E3;
+    text-indent: 5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin: 0;
+    font-weight: bold;
+    word-spacing: 10px;
+}
+
+body{color: #666666;
+    background: url(./lab2_images/background.jpg);
+}
+
+h2{color: #3399cc;
+}
+
+img{ height: 100%;
+    width: 100%;
+    display:block;
+    padding: 0;}
+
+#container1 {
+    box-shadow: 3px 3px 3px #333333;
+    background-color: #ffffff;
+    width:1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding:0px;}
+
+#container2 {
+    margin-left: 5px;
+    padding: 5px;
+}
+
+#container3 {padding-left:10px;}
+
+.span_feature {
+    color: #000033;
+    font-size: 18px;
+    font-family: Calibri;
+}
+footer {
+    font-size: 0.8em;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+
