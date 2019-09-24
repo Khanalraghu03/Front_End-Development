@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3a3861f-ecad-4aa0-bbab-82dc93fa4443" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Activities/9-19.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Activities/9-19Gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/lab2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/lab2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/lab2_images/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/lab2_images/coast.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/lab2_images/sunset.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Activities/9-03.css" beforeDir="false" afterPath="$PROJECT_DIR$/Activities/9-03.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-class_activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/in-class_activities.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs.html" afterDir="false" />
-    </list>
+    <list default="true" id="b3a3861f-ecad-4aa0-bbab-82dc93fa4443" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -61,7 +48,7 @@
     <session id="2032527913">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
@@ -208,7 +195,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
     <option name="width" value="1522" />
@@ -305,16 +292,15 @@
       <workItem from="1568142916395" duration="8795000" />
       <workItem from="1568296518614" duration="11248000" />
       <workItem from="1568729396715" duration="10954000" />
-      <workItem from="1568901853765" duration="6657000" />
+      <workItem from="1568901853765" duration="6899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82055000" />
+    <option name="totallyTimeSpent" value="82297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12027492" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
