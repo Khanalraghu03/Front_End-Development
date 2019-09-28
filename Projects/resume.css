@@ -1,0 +1,156 @@
+/********************* Ids *************/
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px #1e1e1e;
+    background: #ccc url("../Images/hack-background.jpg");
+}
+
+#frame {
+    height: 200px;
+    width: 300px;
+}
+
+/**************** Originals ***************/
+body {
+    font-family: "Algerian", serif;
+    background-image: url("../Images/background-image.jpg");
+}
+header {
+
+    text-align: right;
+    background: url("../Images/wolf.jpg") right;
+    color: #fcff74;
+}
+header > h2 {
+    text-align: right;
+    border-bottom: none;
+}
+
+h1 {
+    padding-right: 5px;
+}
+h2 {
+    text-align: center;
+    border-bottom: 1px solid #000000;
+}
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+/*********************** Three columns config*********************************/
+nav {
+    float: left;
+    width: 15%;
+    padding-right: 20px;
+    position: fixed;
+}
+main {
+    background: white url("../Images/resume-background.jpg");
+    color: #3e5cff;
+    margin-left: 20%;
+    margin-right: 25%;
+    padding: 10px;
+}
+aside {
+    float: right;
+    width: 25%;
+    background-color: #fcff74;
+}
+/*****************  Navigation Config***************************************/
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    border-bottom: 1px solid #ffffff;
+    background: #b3c7e6 url("../Images/focus.jpg") no-repeat right 0;
+
+}
+
+nav a:link {
+    color: #FFFFFF;
+
+}
+nav a:visited {
+    color: #fcff74;
+}
+nav a:hover {
+    color: #ffbe29;
+    background: #e1e1ea url("../Images/focus.jpg") left -200px;
+}
+
+/*************Main config *****************/
+main img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+main a {
+    text-align: center;
+    padding-left: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: yellow;
+}
+
+/*******Aside Config ************************/
+
+aside img {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+aside a {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ff2850;
+}
+
+/***************** Break Point *********************/
+@media only screen and (max-width: 1024px) {
+    main {margin-left: 0;
+        position: static;
+    }
+    nav {float: none;
+        width: auto;
+        text-align: center;
+        position: static;
+    }
+    main picture {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    body {margin: 0;}
+    #wrapper {width: auto;}
+    h1, h2 {font-size: 150%;}
+    p {font-size: 90%;
+    }
+}
+@media only screen and (max-width: 768px){
+    main {margin-right: 0;}
+    aside {float: none;
+        width: auto;
+        position: static;
+    }
+    main picture {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    h1, h2 {font-size: 120%}
+    p {font-size: 80%}
+}
+/*******************************************************/
