@@ -46,6 +46,7 @@ caption {
 
 #last-table{
     background-color: YELLOW;
+    border-collapse: collapse;
     text-align: center;
     height: 400px;
 }
