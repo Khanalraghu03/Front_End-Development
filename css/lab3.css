@@ -1,10 +1,20 @@
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
 table {
     border: 5px solid #003200;
     margin: auto;
     width: 80%;
     text-align: center;
     height: 500px;
-
 }
 td, th {
     padding: 0.5em;
@@ -16,32 +26,9 @@ caption {
     font-size: 1.2em;
     padding-bottom: 0.5em;
 }
+
 #degreeworks {
     border-collapse: collapse;
-}
-
-#center {
-    background: url("../Images/media-design.jpg");
-    height: 60%;
-    width: 60%;
-}
-
-/* Table using div: */
-h3 {
-    text-align: center;
-}
-
-#table2 {
-    margin: auto;
-    width: 80%;
-    height: 500px;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 10% 10% 60% 10% 10%;
-    grid-template-rows: 10% 10% 60% 10% 10%;
-}
-.altrow {
-    background-color: #b4b4b4;
 }
 
 #degreeworks  tr:first-of-type {
@@ -62,6 +49,10 @@ h3 {
     background-color: #008f00;
 }
 
+.altrow {
+    background-color: #b4b4b4;
+}
+
 #mission-ggc {
     background-color: #003200;
     width: 40%;
@@ -75,29 +66,21 @@ h3 {
     background-size: 100%;
 }
 
-#bonus td {
-    border: 1px solid #000066;
-    padding: 0.5em;
-    font-family: Arial, san-serif, serif;
-}
 #bonus {
     border-collapse: collapse;
     text-align: center;
     background-color: #5dc6dd;
     height: 400px;
 }
-.bonus-img {
-    background-image: url("../Images/dots.png");
-}
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+
+#bonus td {
+    border: 1px solid #000066;
+    padding: 0.5em;
+    font-family: Arial, san-serif, serif;
 }
 
-h1, h2 {
-    text-align: center;
+.bonus-img {
+    background-image: url("../Images/dots.png");
 }
 
 
