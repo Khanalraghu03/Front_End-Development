@@ -22,7 +22,7 @@ body {
     /*color:#191970;*/
     font-family: Arial, Verdana, san-serif, serif;
     margin: 0;
-    background: #aeaed4 url("Images/background-image.jpg");
+    background: #aeaed4 url("../Images/background-image.jpg");
     background-attachment: fixed;
     background-position: center;
 
@@ -37,7 +37,7 @@ h1 {
     text-shadow: 1px 1px 3px #000000;
     border: 3px ridge;
     border-radius: 20px;
-    background: #b290cc url(Images/focus.jpg);
+    background: #b290cc url(../Images/focus.jpg);
     background-repeat: no-repeat;
     background-size: 4000px;
     background-position: center;
@@ -52,7 +52,7 @@ h2 {
     /*border-bottom: 2px dashed #191970;*/
     border-radius: 20px;
     /*background: #b290cc url(Images/focus.jpg);*/
-    background: #b290cc url(Images/focus.jpg);
+    background: #b290cc url(../Images/focus.jpg);
     background-repeat: no-repeat;
     background-size: 4000px;
     background-position: center;
@@ -66,7 +66,7 @@ h3 {
     line-height: 150%;
     border-bottom: 2px dashed #191970;
     border-radius: 20px;
-    background: #b290cc url(Images/focus.jpg);
+    background: #b290cc url(../Images/focus.jpg);
     background-repeat: no-repeat;
     background-size: 4000px;
     background-position: center;
@@ -81,7 +81,7 @@ a {
 }
 
 .activities_ul {
-    list-style-image: url(Images/ggc.jpg);
+    list-style-image: url(../Images/ggc.jpg);
     background-repeat: no-repeat;
     background-size: 4000px;
     background-position: center;
@@ -116,7 +116,7 @@ small {
 }
 
 .homepage {
-    background: #b290cc url(Images/focus.jpg);
+    background: #b290cc url(../Images/focus.jpg);
     background-repeat: no-repeat;
     background-size: 4000px;
     background-position: center;
@@ -128,7 +128,7 @@ small {
 }
 
 .project {
-    background: #b290cc url(Images/focus.jpg);
+    background: #b290cc url(../Images/focus.jpg);
     background-repeat: no-repeat;
     background-size: 4000px;
     background-position: center;

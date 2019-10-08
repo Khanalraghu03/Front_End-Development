@@ -50,6 +50,7 @@ caption {
     text-align: center;
     height: 400px;
 }
+
 #image {
     background: url("../Images/large.jpg");
     background-size: 100%;

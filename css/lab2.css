@@ -2,7 +2,7 @@ h1 { color: #ffffff;
     text-indent: 20px;
     line-height: 200%;
     margin-bottom: 0;
-    background: #000033 url(./lab2_images/sunset.jpg);
+    background: #000033 url(../Images/sunset.jpg);
     background-repeat: no-repeat;
     background-position:right;
     padding: 0;}
@@ -18,7 +18,7 @@ nav {background-color: #90C7E3;
 }
 
 body{color: #666666;
-    background: url(./lab2_images/background.jpg);
+    background: url(../Images/background.jpg);
 }
 
 h2{color: #3399cc;

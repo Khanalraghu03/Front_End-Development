@@ -1,0 +1,112 @@
+table {
+    border: 5px solid #003200;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    height: 500px;
+
+}
+td, th {
+    padding: 0.5em;
+    font-family: Arial, san-serif, serif;
+}
+caption {
+    font-family: Arial, san-serif, serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+}
+#degreeworks {
+    border-collapse: collapse;
+}
+
+#center {
+    background: url("../Images/media-design.jpg");
+    height: 60%;
+    width: 60%;
+}
+
+/* Table using div: */
+h3 {
+    text-align: center;
+}
+
+#table2 {
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 10% 10% 60% 10% 10%;
+    grid-template-rows: 10% 10% 60% 10% 10%;
+}
+.altrow {
+    background-color: #b4b4b4;
+}
+
+#degreeworks  tr:first-of-type {
+    background-color: #003200;
+    color: #eaeaea;
+}
+#degreeworks  tr:last-of-type {
+    background-color: #003200;
+    color: #eaeaea;
+}
+#degreeworks tr:nth-of-type(2) {
+    background-color: #008f00;
+}
+#degreeworks tr:nth-of-type(6) {
+    background-color: #008f00;
+}
+#degreeworks tr:nth-of-type(10) {
+    background-color: #008f00;
+}
+
+#mission-ggc {
+    background-color: #003200;
+    width: 40%;
+    color: white;
+    height: 200px;
+}
+
+#image {
+    background: url("../Images/ggc.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#bonus td {
+    border: 1px solid #000066;
+    padding: 0.5em;
+    font-family: Arial, san-serif, serif;
+}
+#bonus {
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #5dc6dd;
+    height: 400px;
+}
+.bonus-img {
+    background-image: url("../Images/dots.png");
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
