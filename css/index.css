@@ -181,8 +181,6 @@ dd {
     #small-nav > a {
        margin-left: auto;
        margin-right: auto;
-
-
    }
     #small-nav a > img {
         padding: 10px;
@@ -191,7 +189,6 @@ dd {
         background-color: #555;
         color: white;
     }
-
     body {margin: 0;}
     #wrapper {width: auto;}
     h1, h2 {font-size: 150%;}

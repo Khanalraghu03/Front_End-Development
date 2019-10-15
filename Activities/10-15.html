@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>10-10</title>
+    <style type="text/css">
+        fieldset, textarea {
+            width: 400px;
+            boarder: 2px ridge #eaeaea;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Contact Us</h1>
+<form method="get" action="10-10.php">
+    <fieldset>
+        <legend>Customer Information</legend>
+        <table>
+            <tr>
+                <th>
+                    <label for="first-name">First Name: </label>
+                </th>
+                <td>
+                    <input type="text" id="first-name" name="first-name" placeholder="E.g. John">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="last-name" >Last Name: </label>
+                </th>
+                <td>
+                    <input type="text" id="last-name" name="last-name" placeholder="E.g. Smith">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="p-number"></label>Phone:
+                </th>
+                <td>
+                    <input type="text" id="p-number" name="p-number" placeholder="E.g. 404-000-0000">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="email"></label>Email:
+                </th>
+                <td>
+                    <input type="email" id="email" name="email" placeholder="E.g. johnsmith@smith.com">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <label for="comments">Comments: </label><br>
+
+    <textarea id="comments" name="comments" cols="40" rows="4" placeholder="Your comment goes here."></textarea> <br>
+
+    <input type="submit" value="Contact">
+    <!--<button>Contact</button> {does the same job}-->
+
+    <input type="reset">
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>
