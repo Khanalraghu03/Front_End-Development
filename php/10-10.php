@@ -7,5 +7,4 @@
 	echo "Your phone number: " .$_GET['p-number']. "<br>";
 	echo "Your email: " .$_GET['email']. "<br>";
 	echo "Your comment: " .$_GET['comments']. "<br>";
-
 ?>

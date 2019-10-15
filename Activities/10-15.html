@@ -2,9 +2,9 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>10-10</title>
+    <title>10-15</title>
     <style type="text/css">
-        fieldset, textarea {
+        fieldset, textarea   {
             width: 400px;
             boarder: 2px ridge #eaeaea;
             padding: 10px;
@@ -15,10 +15,33 @@
 <body>
 
 <h1>Contact Us</h1>
-<form method="get" action="10-10.php">
+<form method="post" action="../php/10-15.php">
     <fieldset>
         <legend>Customer Information</legend>
         <table>
+            <th>
+                <label for="stu-id">*Student ID: </label>
+            </th>
+            <td>
+                <input type="text" id="stu-id" name="stu-id" required="required">
+            </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="stu-pass">*Password: </label>
+                </th>
+                <td>
+                    <input type="password" id="stu-pass" name="stu-pass" required="required">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="stu-repass">*Retype Password: </label>
+                </th>
+                <td>
+                    <input type="password" id="stu-repass" name="stu-repass" required="required">
+                </td>
+            </tr>
             <tr>
                 <th>
                     <label for="first-name">First Name: </label>
@@ -29,7 +52,7 @@
             </tr>
             <tr>
                 <th>
-                    <label for="last-name" >Last Name: </label>
+                    <label for="last-name">Last Name: </label>
                 </th>
                 <td>
                     <input type="text" id="last-name" name="last-name" placeholder="E.g. Smith">
@@ -45,32 +68,95 @@
             </tr>
             <tr>
                 <th>
-                    <label for="email"></label>Email:
+                    <label for="email"></label>*Email:
                 </th>
                 <td>
-                    <input type="email" id="email" name="email" placeholder="E.g. johnsmith@smith.com">
+                    <input type="email" id="email" name="email" placeholder="E.g. johnsmith@smith.com" required="required">
                 </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="street"></label>Street:
+                </th>
+                <td>
+                    <input type="text" id="street" name="street">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="city"></label>City:
+                </th>
+                <td>
+                    <input type="text" id="city" name="city">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="state"></label>State:
+                </th>
+                <td>
+                    <input type="text" id="state" name="state" size="2" maxlength="2">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="zip"></label>Zip:
+                </th>
+                <td>
+                    <input type="text" id="zip" name="zip" size="5" maxlength="5">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="level"></label>Level:
+                </th>
+                <td><select size="1" name="level" id="level">
+                    <option>Choose your level at GGC</option>
+                    <option value="Freshman">Freshman</option>
+                    <option value="Sophomore">Sophomore</option>
+                    <option value="Junior">Junior</option>
+                    <option value="Senior">Senior</option>
+                </select></td>
             </tr>
         </table>
     </fieldset>
-    <label for="comments">Comments: </label><br>
+    <br>
+    <fieldset>
+        <legend>IT Preferences</legend>
+        <input id="comp" name="comp" type="checkbox">
+        <label for="comp">I own a computer.</label> <br><br>
 
-    <textarea id="comments" name="comments" cols="40" rows="4" placeholder="Your comment goes here."></textarea> <br>
-
-    <input type="submit" value="Contact">
+        How often do you use computers?<br>
+        <input id="time1" name="time" type="radio"><label for="time1">0-2 Hours</label><br>
+        <input id="time2" name="time" type="radio"><label for="time2">2-5 Hours</label><br>
+        <input id="time3" name="time" type="radio"><label for="time3">5+ Hours</label><br>
+        <br>
+        What is your favorite web browser (you can pick more than one answer)<br>
+        <input type="checkbox" id="ie"><label for="ie">Internet Explorer</label><br>
+        <input type="checkbox" id="chrome"><label for="chrome">Chrome</label><br>
+        <input type="checkbox" id="firefox"><label for="firefox">Firefox</label><br>
+        <input type="checkbox" id="safari"><label for="safari">safari</label><br>
+        <br>
+        What is your favorite computer brand?<br>
+        <input id="mac" name="fav-comp" type="radio"><label for="mac">Mac</label><br>
+        <input id="dell" name="fav-comp" type="radio"><label for="dell">Dell</label><br>
+        <input id="hp" name="fav-comp" type="radio"><label for="hp">HP</label><br>
+        <input id="lenovo" name="fav-comp" type="radio"><label for="lenovo">Lenovo</label><br>
+        <br>
+        What is your major concentrations> <br>
+        <select name="" size="5" id="major">
+            <option value="">Digital Media</option>
+            <option value="">Enterprise Systems</option>
+            <option value="">Software Development</option>
+            <option value="">System & Security</option>
+            <option value="">Data Analytics</option>
+            
+        </select>
+    </fieldset>
+    <br>
+    <input type="submit" value="Register">
     <!--<button>Contact</button> {does the same job}-->
-
     <input type="reset">
-
-
-
-
-
-
-
-
-
-
 
 </form>
 
