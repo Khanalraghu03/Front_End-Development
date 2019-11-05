@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 4</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/lab4.css">
+</head>
+<body>
+<div class="container table-info">
+    <h2>Information Security Awareness Survey</h2> <br>
+    <form action="../php/lab-action.php" method="POST">
+        <h3>1. Demographic information</h3>
+        <table id="demo-info" class="table table-dark">
+            <tr>
+                <th scope="row">Gender: </th>
+                <td><select name="gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="You don't want to tell">Do not want to tell</option>
+                </select></td>
+
+            </tr>
+            <tr>
+                <th scope="row">Age: </th>
+                <td><input type="text" name="age" id="age"></td>
+            </tr>
+            <tr>
+                <th scope="row">Level: </th>
+                <td><select name="level" id="level">
+                    <option value="">Choose your level at GGC</option>
+                    <option value="Freshmen">Freshmen</option>
+                    <option value="Sophmore">Sophmore</option>
+                    <option value="Junior">Junior</option>
+                    <option value="Senior">Senior</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th scope="row">School:</th>
+                <td> <input type="text" list="school" name="school" />
+                    <datalist id="school">
+                        <option>SST</option>
+                        <option>SB</option>
+                        <option>SE</option>
+                        <option>SLA</option>
+                    </datalist></td>
+            </tr>
+
+        </table>
+
+        <h3>2. How do you evaluate your security knowledge?</h3>
+        <div class="table-dark">
+            <label for = "value">Choose a value between 1 and 100:</label><br>
+            1 <input class="custom-range" type = "range" id = "value" name = "value" min = "1" max = "100"> 100
+            <br>
+        </div>
+
+
+        <h3>3. Have your computers been infected by virus before?</h3>
+        <div class="table-dark" id="y-n">
+        <input class="custom-radio" type="radio" name="yes-no" value="Yes" id="yes"> <label for="yes">Yes</label>
+            &nbsp; &nbsp;
+        <input class="custom-radio" type="radio" name="yes-no" value="No" id="no"> <label for="no">No</label>
+        </div>
+
+        <h3>4. What anti-virus software do you usually use (you can pick more than one answers)? </h3>
+        <table id="anti-virus" class="table table-bordered table-dark">
+            <tr>
+                <td><input type="checkbox" name="anti_virus[]" value="Norton" id="norton"> <label for="norton">Norton</label></td>
+                <td><input type="checkbox" name="anti_virus[]" value="Kasperski" id="kasperski"><label for="kasperski">Kasperski</label></td>
+                <td><input type="checkbox" name="anti_virus[]" value="McAfee" id="mcafee"><label for="mcafee">McAfee</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="anti_virus[]" value="AVG" id="avg"><label for="avg">AVG</label></td>
+                <td><input type="checkbox" name="anti_virus[]" value="Avast" id="avast"><label for="avast">Avast</label></td>
+                <td><input type="checkbox" name="anti_virus[]" value="Malwarebytes" id="malwarebytes"><label for="malwarebytes">Malwarebytes</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="anti_virus[]" value="Bitdefender" id="bitdefender"><label for="bitdefender">Bitdefender</label></td>
+                <td><input type="checkbox" name="anti_virus[]" value="Webroot" id="webroot"><label for="webroot">Webroot</label></td>
+                <td><input type="checkbox" name="anti_virus[]" value="Trend Micro" id="trendmicro"><label for="trendmicro">Trend Micro</label></td>
+            </tr>
+        </table>
+
+
+        <h3>5. Please rate the following questions from strongly disagree to strongly agree: </h3>
+        <table id="survey" class="table table-bordered table-dark" >
+            <thread class="thead-dark">
+                <tr>
+                    <th scope="col">Questions</th>
+                    <th scope="col">Strongly Disagree</th>
+                    <th scope="col">Disagree</th>
+                    <th scope="col">Neutral</th>
+                    <th scope="col">Agree</th>
+                    <th scope="col">Strongly Agree</th>
+                </tr>
+            </thread>
+            <tr>
+                <td scope="row">I know how to create a strong password</td>
+                <td class="survey-radio"><input type="radio" name="s-pass" value="Strongly Disagree"></td>
+                <td class="survey-radio"><input type="radio" name="s-pass" value="Disagree"></td>
+                <td class="survey-radio"><input type="radio" name="s-pass" value="Neutral"></td>
+                <td class="survey-radio"><input type="radio" name="s-pass" value="Agree"></td>
+                <td class="survey-radio"><input type="radio" name="s-pass" value="Strongly Agree"></td>
+            </tr>
+            <tr>
+                <td scope="row">I know how to remove viruses from my computer</td>
+                <td class="survey-radio"><input type="radio" name="r-virus" value="Strongly Disagree"></td>
+                <td class="survey-radio"><input type="radio" name="r-virus" value="Disagree"></td>
+                <td class="survey-radio"><input type="radio" name="r-virus" value="Neutral"></td>
+                <td class="survey-radio"><input type="radio" name="r-virus" value="Agree"></td>
+                <td class="survey-radio"><input type="radio" name="r-virus" value="Strongly Agree"></td>
+            </tr>
+            <tr>
+                <td scope="row">I know how to remove spyware from my computer</td>
+                <td class="survey-radio"><input type="radio" name="spyware" value="Strongly Disagree"></td>
+                <td class="survey-radio"><input type="radio" name="spyware" value="Disagree"></td>
+                <td class="survey-radio"><input type="radio" name="spyware" value="Neutral"></td>
+                <td class="survey-radio"><input type="radio" name="spyware" value="Agree"></td>
+                <td class="survey-radio"><input type="radio" name="spyware" value="Strongly Agree"></td>
+            </tr>
+            <tr>
+                <td scope="row">I know how to secure my wireless network at home</td>
+                <td class="survey-radio"><input type="radio" name="s-wifi" value="Strongly Disagree"></td>
+                <td class="survey-radio"><input type="radio" name="s-wifi" value="Disagree"></td>
+                <td class="survey-radio"><input type="radio" name="s-wifi" value="Neutral"></td>
+                <td class="survey-radio"><input type="radio" name="s-wifi" value="Agree"></td>
+                <td class="survey-radio"><input type="radio" name="s-wifi" value="Strongly Agree"></td>
+            </tr>
+            <tr>
+                <td scope="row">I know how to protect my personal information when surfing the Internet</td>
+                <td class="survey-radio"><input type="radio" name="p-info" value="Strongly Disagree"></td>
+                <td class="survey-radio"><input type="radio" name="p-info" value="Disagree"></td>
+                <td class="survey-radio"><input type="radio" name="p-info" value="Neutral"></td>
+                <td class="survey-radio"><input type="radio" name="p-info" value="Agree"></td>
+                <td class="survey-radio"><input type="radio" name="p-info" value="Strongly Agree"></td>
+            </tr>
+        </table>
+        <br>
+        <div id="confirm">
+        <input type="submit" name="submit" value="Submit" class="btn-primary col-1"> &nbsp; &nbsp;
+        <input type="reset" value="Reset" class="btn-danger col-1">
+        <br> <br>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

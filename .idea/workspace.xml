@@ -2,12 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3a3861f-ecad-4aa0-bbab-82dc93fa4443" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/php/10-15.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activities/10-17.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activities/10-22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activities/10-24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activities/10-31.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/lab4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/project3_cast.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/project3_gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/project3_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/10-24.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/10-31.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/lab4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/project3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/10-22.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/lab-action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WebTechnologies.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebTechnologies.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Activities/10-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/Activities/10-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Activities/10-10.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/10-10.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Activities/10-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/Activities/10-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/10-01.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/10-01.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/in-class_activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/in-class_activities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/10-15.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/10-15.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,18 +38,8 @@
       <executable />
     </execution>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Activities/10-15.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="152" column="12" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FavoritesManager">
+    <favorites_list name="WebTechnologies" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,83 +49,25 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>ind</find>
-      <find>dd&gt;</find>
-      <find>unstyled</find>
-      <find>activities_ul</find>
-      <find>h2</find>
-      <find>ul class=&quot;activities_ul&quot;</find>
-      <find>&lt;li class=&quot;nav-item&quot;</find>
-      <find>top</find>
-      <find>box</find>
-      <find>target=&quot;mySite&quot;</find>
-      <find>wolf</find>
-      <find>posi</find>
-      <find>img</find>
-      <find>pictu</find>
-      <find>aside</find>
-      <find>main</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>group</replace>
-      <replace>activities_ul, card</replace>
-      <replace>ul</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1SFN6F2A9q3dw04DbN7z1pmXYzK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="WebTechnologies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebTechnologies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebTechnologies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebTechnologies" type="462c0819:PsiDirectoryNode" />
-              <item name="Activities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebTechnologies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebTechnologies" type="462c0819:PsiDirectoryNode" />
-              <item name="Labs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebTechnologies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebTechnologies" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebTechnologies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebTechnologies" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570724767328" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/php-7.3.10-Win32-VC15-x64/php.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -127,7 +77,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -149,36 +99,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.10-10.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.dropdowns.html">
     <configuration name="10-01.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/WebTechnologies/Activities/10-01.html">
       <method v="2" />
     </configuration>
     <configuration name="10-10.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/WebTechnologies/Activities/10-10.html">
       <method v="2" />
     </configuration>
-    <configuration name="10-10.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/WebTechnologies/Activities/10-10.html">
+    <configuration name="dropdowns.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebTechnologies/Projects/dropdowns.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="in-class_activities.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebTechnologies/in-class_activities.html">
+    <configuration name="lab4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebTechnologies/Labs/lab4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="resume.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/WebTechnologies/Projects/resume.html">
+    <configuration name="lab-action.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/php/lab-action.php">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.resume.html" />
-      <item itemvalue="JavaScript Debug.in-class_activities.html" />
-      <item itemvalue="JavaScript Debug.10-10.html" />
       <item itemvalue="JavaScript Debug.10-10.html (1)" />
       <item itemvalue="JavaScript Debug.10-01.html" />
+      <item itemvalue="JavaScript Debug.lab4.html" />
+      <item itemvalue="PHP Script.lab-action.php" />
+      <item itemvalue="JavaScript Debug.dropdowns.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.dropdowns.html" />
+        <item itemvalue="JavaScript Debug.lab4.html" />
+        <item itemvalue="PHP Script.lab-action.php" />
         <item itemvalue="JavaScript Debug.10-10.html (1)" />
         <item itemvalue="JavaScript Debug.10-01.html" />
-        <item itemvalue="JavaScript Debug.10-10.html" />
-        <item itemvalue="JavaScript Debug.resume.html" />
-        <item itemvalue="JavaScript Debug.in-class_activities.html" />
       </list>
     </recent_temporary>
   </component>
@@ -219,46 +169,23 @@
       <workItem from="1570719810493" duration="612000" />
       <workItem from="1571148990127" duration="4012000" />
       <workItem from="1571153124078" duration="863000" />
-      <workItem from="1571155208078" duration="67000" />
+      <workItem from="1571155208078" duration="206000" />
+      <workItem from="1571321879835" duration="5874000" />
+      <workItem from="1571327781137" duration="1316000" />
+      <workItem from="1571531654723" duration="29000" />
+      <workItem from="1571531741603" duration="618000" />
+      <workItem from="1571925646210" duration="3422000" />
+      <workItem from="1572055499172" duration="36000" />
+      <workItem from="1572105805026" duration="3054000" />
+      <workItem from="1572138829270" duration="54000" />
+      <workItem from="1572288459288" duration="660000" />
+      <workItem from="1572531969408" duration="4732000" />
+      <workItem from="1572550975020" duration="13000" />
+      <workItem from="1572815325875" duration="17890000" />
+      <workItem from="1572876070342" duration="29119000" />
+      <workItem from="1572929780835" duration="1452000" />
     </task>
     <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12027492" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897863" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32897863" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32897863" />
-      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32897863" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Mongo Explorer" order="3" weight="0.32859176" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -269,12 +196,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -295,5 +216,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/lab-action.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>10-17</title>
+    <style>
+        #wrapper {width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #eaeaea;
+        box-shadow: 5px 5px 5px #1e1e1e;
+        padding-bottom: 10px;}
+
+        h1,p {text-align: center;}
+
+        #signin, img {width: 100px;
+        display: block;
+        margin: auto;}
+
+        label {float: left;
+        width: 200px;
+        text-align: right;
+        padding-right: 10px;
+        clear: left;}
+
+        input {display: block;}
+
+        button {display: block;
+        margin: auto;}
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <h1>GGC IT Student Association</h1>
+    <form method="post" action="10-22.html">
+        <label for ="sid">Student ID:</label>
+        <input type ="text" id ="sid" name="sid" required="required"><br>
+        <label for ="pass">Password:</label>
+        <input type ="text" id ="pass" name="pass" required="required"><br>
+        <input type="image" id="signin" src="../Images/signin.jpg" alt="Sign In"><br>
+    </form>
+    <hr>
+    <form>
+        <p>Don't have an account?</p>
+        <button type="submit" formaction="10-15.html">
+            <img src="../Images/signup.jpg" alt="Sign Up"><br>
+            Sign up for the latest IT news.
+        </button>
+    </form>
+</div>
+</body>
+</html>

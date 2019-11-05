@@ -1,117 +1,42 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>10-15</title>
-    <style type="text/css">
-        fieldset, textarea   {
-            width: 400px;
-            boarder: 2px ridge #eaeaea;
-            padding: 10px;
-            margin-bottom: 10px;
+    <style>
+        fieldset, textarea {width: 400px;
+        border: 2px ridge #eaeaea;
+        padding: 10px;
+        margin-bottom: 10px;
+        }
+
+        th {text-align: right;
+        font-weight: bold;
         }
     </style>
 </head>
 <body>
-
-<h1>Contact Us</h1>
-<form method="post" action="../php/10-15.php">
+<h1>IT Student Registration</h1>
+<p>Required fields are marked with an asterisk (*).</p>
+<form method = "post" action = "../php/10-15.php">
     <fieldset>
-        <legend>Customer Information</legend>
+        <legend>Personal Information</legend>
         <table>
-            <th>
-                <label for="stu-id">*Student ID: </label>
-            </th>
-            <td>
-                <input type="text" id="stu-id" name="stu-id" required="required">
-            </td>
-            </tr>
+            <tr><th><label for  = "sid">*Student ID: </label><td><input type = "text" id="sid" name="sid" required="required"></td></th></tr>
+            <tr><th><label for  = "password">*Password: </label><td><input type = "password" id="password" name="password" required="required"></td></th></tr>
+            <tr><th><label for  = "repassword">*Retype Password: </label><td><input type = "password" id="repassword" name="repassword" required="required"></td></th></tr>
+            <tr><th><label for  = "first">First Name: </label><td><input type = "text" id="first" name="first" placeholder="E.g. John"></td></th></tr>
+            <tr><th><label for  = "last">Last Name: </label><td><input type = "text" id="last" name="last" placeholder="E.g. Smith"></td></th></tr>
+            <tr><th><label for  = "phone">Phone: </label><td><input type = "text" id="phone" name="phone" placeholder="E.g. 555-555-5555"></td></th></tr>
+            <tr><th><label for  = "email">*Email: </label><td><input type = "email" id="email" name="email" placeholder="E.g. jsmith@email.com" required="required"></td></th></tr>
+            <tr><th><label for  = "street">Street: </label><td><input type = "text" id="street" name="street"></td></th></tr>
+            <tr><th><label for  = "city">City: </label><td><input type = "text" id="city" name="city"></td></th></tr>
+            <tr><th><label for  = "state">State: </label><td><input type = "text" id="state" name="state" size="2" maxlength="2"></td></th></tr>
+            <tr><th><label for  = "zip">ZIP: </label><td><input type = "text" id="zip" name="zip" size = "5" maxlength="5"></td></th></tr>
             <tr>
-                <th>
-                    <label for="stu-pass">*Password: </label>
-                </th>
-                <td>
-                    <input type="password" id="stu-pass" name="stu-pass" required="required">
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    <label for="stu-repass">*Retype Password: </label>
-                </th>
-                <td>
-                    <input type="password" id="stu-repass" name="stu-repass" required="required">
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    <label for="first-name">First Name: </label>
-                </th>
-                <td>
-                    <input type="text" id="first-name" name="first-name" placeholder="E.g. John">
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    <label for="last-name">Last Name: </label>
-                </th>
-                <td>
-                    <input type="text" id="last-name" name="last-name" placeholder="E.g. Smith">
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    <label for="p-number"></label>Phone:
-                </th>
-                <td>
-                    <input type="text" id="p-number" name="p-number" placeholder="E.g. 404-000-0000">
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    <label for="email"></label>*Email:
-                </th>
-                <td>
-                    <input type="email" id="email" name="email" placeholder="E.g. johnsmith@smith.com" required="required">
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    <label for="street"></label>Street:
-                </th>
-                <td>
-                    <input type="text" id="street" name="street">
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    <label for="city"></label>City:
-                </th>
-                <td>
-                    <input type="text" id="city" name="city">
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    <label for="state"></label>State:
-                </th>
-                <td>
-                    <input type="text" id="state" name="state" size="2" maxlength="2">
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    <label for="zip"></label>Zip:
-                </th>
-                <td>
-                    <input type="text" id="zip" name="zip" size="5" maxlength="5">
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    <label for="level"></label>Level:
-                </th>
-                <td><select size="1" name="level" id="level">
-                    <option>Choose your level at GGC</option>
+                <th><label for  = "level">Level: </label></th>
+                <td><select size="1" id="level" name="level">
+                    <option>-</option>
                     <option value="Freshman">Freshman</option>
                     <option value="Sophomore">Sophomore</option>
                     <option value="Junior">Junior</option>
@@ -123,42 +48,33 @@
     <br>
     <fieldset>
         <legend>IT Preferences</legend>
-        <input id="comp" name="comp" type="checkbox">
-        <label for="comp">I own a computer.</label> <br><br>
-
-        How often do you use computers?<br>
-        <input id="time1" name="time" type="radio"><label for="time1">0-2 Hours</label><br>
-        <input id="time2" name="time" type="radio"><label for="time2">2-5 Hours</label><br>
-        <input id="time3" name="time" type="radio"><label for="time3">5+ Hours</label><br>
-        <br>
-        What is your favorite web browser (you can pick more than one answer)<br>
-        <input type="checkbox" id="ie"><label for="ie">Internet Explorer</label><br>
-        <input type="checkbox" id="chrome"><label for="chrome">Chrome</label><br>
-        <input type="checkbox" id="firefox"><label for="firefox">Firefox</label><br>
-        <input type="checkbox" id="safari"><label for="safari">safari</label><br>
-        <br>
-        What is your favorite computer brand?<br>
-        <input id="mac" name="fav-comp" type="radio"><label for="mac">Mac</label><br>
-        <input id="dell" name="fav-comp" type="radio"><label for="dell">Dell</label><br>
-        <input id="hp" name="fav-comp" type="radio"><label for="hp">HP</label><br>
-        <input id="lenovo" name="fav-comp" type="radio"><label for="lenovo">Lenovo</label><br>
-        <br>
-        What is your major concentrations> <br>
-        <select name="" size="5" id="major">
-            <option value="">Digital Media</option>
-            <option value="">Enterprise Systems</option>
-            <option value="">Software Development</option>
-            <option value="">System & Security</option>
-            <option value="">Data Analytics</option>
-            
+        <input type ="checkbox" id="ownPC" name="ownPC" value = "yes"><label for = "ownPC">I own a computer</label><br><br>
+        How much do you use a computer in a day?<br>
+        <input type = "radio" id = "time1" name="time" value="0-2 hours"><label for = "time1">0-2 hours</label><br>
+        <input type = "radio" id = "time2" name="time" value="2-5 hours"><label for = "time2">2-5 hours</label><br>
+        <input type = "radio" id = "time3" name="time" value="5/+ hours"><label for = "time3">5/+ hours</label><br><br>
+        Favorite computer brand?<br>
+        <input type = "radio" id = "mac" name="brand" value="Mac"><label for = "mac">Mac</label><br>
+        <input type = "radio" id = "dell" name="brand" value="Dell"><label for = "dell">Dell</label><br>
+        <input type = "radio" id = "hp" name="brand" value="HP"><label for = "hp">HP</label><br>
+        <input type = "radio" id = "lenovo" name="brand" value="Lenovo"><label for = "lenovo">Lenovo</label><br><br>
+        What is your favorite browser(s)?<br>
+        <input type = "checkbox" id = "ie" name="ie" value="yes"><label for = "ie">Internet Explorer</label><br>
+        <input type = "checkbox" id = "safari" name="safari" value="yes"><label for = "safari">Safari</label><br>
+        <input type = "checkbox" id = "chrome" name="chrome" value="yes"><label for = "chrome">Chrome</label><br>
+        <input type = "checkbox" id = "firefox" name="firefox" value="yes"><label for = "firefox">Firefox</label><br><br>
+        What is your major concentration?<br>
+        <select size = "5" name ="major">
+            <option value="Digital Media">Digital Media</option>
+            <option value="Enterprise Systems">Enterprise Systems</option>
+            <option value="Software Development">Software Development</option>
+            <option value="Systems and Security">Systems and Security</option>
+            <option value="Data Analytics">Data Analytics</option>
         </select>
     </fieldset>
     <br>
-    <input type="submit" value="Register">
-    <!--<button>Contact</button> {does the same job}-->
-    <input type="reset">
-
+    <input type = "submit" value = "Register">
+    <input type = "reset">
 </form>
-
 </body>
 </html>
