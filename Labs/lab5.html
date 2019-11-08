@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab5</title>
+    <link rel="stylesheet" href="../css/lab5.css">
+
+</head>
+<body>
+<div id="main-wrapper">
+
+    <div id="div1">
+        <h1 id="abab" style="">Happy Halloween!!!</h1>
+    </div>
+
+    <h2>Trick or Treat?</h2>
+
+    <div id="wrapper">
+        <img id = "myImage" src="../Images/Lab5/trickOrTreat.jpg" style = "width: 300px; height: 200px;"><br>
+        <button onclick = "document.getElementById('myImage').src = '../Images/Lab5/trick.jpg'">Trick</button>
+        <button onclick = "document.getElementById('myImage').src = '../Images/Lab5/treat.jpg'">Treat</button>
+    </div>
+
+
+    <div id="wrapper2" >
+        <h2>I got my favorite candy!</h2>
+        <img alt="" id="theimage" src="../Images/Lab5/candy.png">
+    </div>
+
+    <div id="witch"></div>
+    <div id="pumpkins">
+    </div>
+</div>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/color/jquery.color-git.js">
+</script>
+<script>
+    $(document).ready(function(){
+        $("#abab").on("moveleft", function(){
+            $(this).animate({left: "850px", color: "yellow"}, 5000, function(){
+                $(this).trigger('moveright');
+            });
+        });
+        $("#abab").on("moveright", function(){
+            $(this).animate({left: "5px", color:"red"}, 5000, function(){
+                $(this).trigger('moveleft');
+            });
+        });
+        $("#abab").trigger("moveleft");
+
+    })
+</script>
+
+</body>
+</html>

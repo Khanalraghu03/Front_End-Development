@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="generator" content="AlterVista - Editor HTML"/>
+    <title>Gallery</title>
+    <style>
+        h1 {text-align: center;}
+        img {width: 150px;
+            height: 100px;}
+        ul {list-style-type: none;
+            width: 400px;}
+        li {display: inline;
+            float: left;
+            padding: 10px;}
+        .bigImage {width: 300px;
+            height: 200px;}
+        span {position: absolute;
+            left: -1000px;
+            opacity: 0;
+            transition: opacity 3s ease-in-out;}
+        a:hover span {display: block;
+            position: absolute;
+            top: 100px;
+            left: 500px;
+            text-align: center;
+            opacity: 1;}
+        a {text-decoration: none;
+            color: #eaeaea;
+            font-style: italic;}
+        p {clear: left;}
+        .button {text-decoration: none;
+            color: #ffffff;
+            background-color: #0066ff;
+            padding: 1em;
+            font-weight: bold;
+            text-align: center;
+            border: 3px ridge #1e1e1e;
+            box-shadow: 3px 3px 3px #1e1e1e;
+            border-radius: 30px;
+            margin-left: 50px;}
+        .button:hover {color: #0066ff;
+            background-color: #cccccc;}
+        body {background-color: #333333;
+            color: #eaeaea;}
+    </style>
+</head>
+<body>
+<h1>Image Gallery</h1>
+<ul>
+    <li><a href = "../Images/vr.jpg"><img src = "../Images/vr.jpg">
+        <span><img class = "bigImage" src = "../Images/vr.jpg"><br>Virtual Reality</span></a></li>
+    <li><a href = "../Images/flute.jpg"><img src = "../Images/flute.jpg">
+        <span><img class = "bigImage" src = "../Images/flute.jpg"><br>Playing flute</span></a></li>
+    <li><a href = "../Images/weightlifting.jpg"><img src = "../Images/weightlifting.jpg">
+        <span><img class = "bigImage" src = "../Images/weightlifting.jpg"><br>Weight lifting</span></a></li>
+    <li><a href = "../Images/skate.jpg"><img src = "../Images/skate.jpg">
+        <span><img class = "bigImage" src = "../Images/skate.jpg"><br>Skating</span></a></li>
+</ul>
+<p>&nbsp;</p>
+<a class = "button" href = "10-31.html">Go Back</a>
+</body>
+</html>
