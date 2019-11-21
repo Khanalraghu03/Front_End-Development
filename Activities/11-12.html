@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11-12</title>
+</head>
+<body>
+<script>
+    var userName;
+    userName = prompt("Please enter your name: ");
+    document.write("<h2>Hello " + userName + "!</h2>");
+    var userColor;
+    userColor = prompt(userName + ", do you like red, blue, green, or yellow as background color?: ");
+    userFontColor = prompt(userName + ", do you like red, blue, green, or yellow as font color?: ");
+    // document.bgColor = userColor;  this is deprecated
+    document.body.style.backgroundColor = userColor;
+    // document.fgColor = userFontColor;
+    document.body.style.color = userFontColor;
+</script>
+
+
+
+<script>
+    var score;
+    score = prompt(userName + ", please enter your test score: ");
+    if(score >= 90) {
+        document.write("<h2>Good job " + userName + "! You got an A!</h2>");
+    } else if(score >= 80) {
+        document.write("<h2>Nice " + userName + "! You got an B!</h2>");
+    } else if(score >= 70) {
+        document.write("<h2>Not bad " + userName + "! You got an C!</h2>");
+    } else if(score >= 60) {
+        document.write("<h2>Okay " + userName + "! You got an D!</h2>");
+    } else {
+        document.write('<h2>Work harder!</h2>');
+    }
+</script>
+
+
+</body>
+</html>

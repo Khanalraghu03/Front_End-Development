@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3a3861f-ecad-4aa0-bbab-82dc93fa4443" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Activities/10-31-basketball.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Activities/10-31Gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Activities/11-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/lab5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/lab5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activities/11-12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activities/11-14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activities/11-19.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activities/11-21.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/autumn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/tryJavaScript.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Activities/10-31.html" beforeDir="false" afterPath="$PROJECT_DIR$/Activities/10-31.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/10-31.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/10-31.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activities/10-31-basketball.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activities/11-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Activities/11-5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/in-class_activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/in-class_activities.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -46,8 +46,11 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1SFN6F2A9q3dw04DbN7z1pmXYzK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -64,7 +67,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -86,11 +89,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.dropdowns.html">
-    <configuration name="10-01.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/WebTechnologies/Activities/10-01.html">
+  <component name="RunManager" selected="JavaScript Debug.11-12.html">
+    <configuration name="10-10.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/WebTechnologies/Activities/10-10.html">
       <method v="2" />
     </configuration>
-    <configuration name="10-10.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/WebTechnologies/Activities/10-10.html">
+    <configuration name="11-12.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/WebTechnologies/Activities/11-12.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="dropdowns.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebTechnologies/Projects/dropdowns.html" useBuiltInWebServerPort="true">
@@ -104,18 +107,18 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.10-10.html (1)" />
-      <item itemvalue="JavaScript Debug.10-01.html" />
       <item itemvalue="JavaScript Debug.lab4.html" />
       <item itemvalue="JavaScript Debug.dropdowns.html" />
+      <item itemvalue="JavaScript Debug.11-12.html" />
       <item itemvalue="PHP Script.lab-action.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.11-12.html" />
         <item itemvalue="JavaScript Debug.dropdowns.html" />
         <item itemvalue="JavaScript Debug.lab4.html" />
         <item itemvalue="PHP Script.lab-action.php" />
         <item itemvalue="JavaScript Debug.10-10.html (1)" />
-        <item itemvalue="JavaScript Debug.10-01.html" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +176,13 @@
       <workItem from="1572929780835" duration="1452000" />
       <workItem from="1573139915143" duration="7726000" />
       <workItem from="1573173320684" duration="12151000" />
+      <workItem from="1573189535500" duration="1598000" />
+      <workItem from="1573572932610" duration="3870000" />
+      <workItem from="1573779345743" duration="24000" />
+      <workItem from="1573779596920" duration="76000" />
+      <workItem from="1573854481020" duration="898000" />
+      <workItem from="1574019213260" duration="157000" />
+      <workItem from="1574200473114" duration="8296000" />
     </task>
     <servers />
   </component>
@@ -205,6 +215,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

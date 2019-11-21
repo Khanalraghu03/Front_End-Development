@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="generator" content="AlterVista - Editor HTML"/>
+    <title>11-14</title>
+    <script>
+        function easyTest(){
+            var number;
+            number = prompt("What is 6 + 2?");
+            if (parseInt(number) === 8)
+                alert("Correct!");
+            else
+                alert("Wrong!");
+        }
+
+        function mediumTest(){
+            var number1, number2, number3;
+            number1 = prompt ("Please input the first number");
+            number2 = prompt ("Please input the second number");
+            number3 = prompt ("What is " + number1 + " * " + number2 + " ?");
+            if (parseInt(number3) === parseInt(number1) * parseInt(number2)) {
+                alert ("Correct!");}
+            else {
+                alert ("Wrong!");}
+        }
+
+        function hardTest(){
+            var number1, number2, number3;
+            number1 = prompt ("Please input a small number");
+            number2 = prompt ("Please input a larger number");
+            number3 = prompt ("What is the sum of all the whole numbers from" + number1 + " to " + number2 + " ?");
+            var sum = 0;
+            for(i = parseInt(number1); i <= parseInt(number2); i++){
+                sum += i;
+            }
+            if (parseInt(number3) === sum)
+                alert ("Correct!");
+            else
+                alert ("Wrong!");
+        }
+
+        function convert(){
+            var fah, cel;
+            fah = prompt ("Please enter a degree in Fahrenheit:");
+            cel = (5/9) * (parseInt(fah)-32);
+            alert ("It is " + cel.toFixed(1) + " degrees in Celsius.");
+        }
+
+        function countDate(){
+            var year, month, day;
+            year = prompt("Please enter a special year:");
+            month = prompt("Please enter a special month:");
+            day = prompt("Please enter a special day:");
+            var sd = new Date(year, month-1, day);
+            var now = new Date();
+            var days = Math.ceil((sd.getTime() - now.getTime())/(1000*60*60*24));
+            if (days >= 0)
+                alert("There are " + days + " days left until your special day.");
+            else
+                alert((0-days) + " days past since your special day.");
+        }
+    </script>
+</head>
+<body>
+
+<h2>Select a test to take:</h2>
+<input type = "button" value = "Easy" onclick = "easyTest();">
+<input type = "button" value = "Medium" onclick = "mediumTest();">
+<input type = "button" value = "Hard" onclick = "hardTest();">
+
+<h2>Fahrenheit to Celsius Converter:</h2>
+<input type = "button" value = "Convert" onclick = "convert();">
+
+<h2>Special Date Count</h2>
+<input type = "button" value = "Count" onclick = "countDate();">
+</body>
+</html>
