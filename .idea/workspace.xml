@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3a3861f-ecad-4aa0-bbab-82dc93fa4443" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Activities/11-12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Activities/11-14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Activities/11-19.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Activities/11-21.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/autumn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/tryJavaScript.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Activities/10-31-basketball.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Activities/11-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Activities/11-5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/in-class_activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/in-class_activities.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,7 +49,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570724767328" />
-    <property name="last_opened_file_path" value="C:/php-7.3.10-Win32-VC15-x64/php.exe" />
+    <property name="last_opened_file_path" value="$USER_HOME$/bounce.js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -67,7 +60,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -182,7 +175,8 @@
       <workItem from="1573779596920" duration="76000" />
       <workItem from="1573854481020" duration="898000" />
       <workItem from="1574019213260" duration="157000" />
-      <workItem from="1574200473114" duration="8296000" />
+      <workItem from="1574200473114" duration="9027000" />
+      <workItem from="1574544899294" duration="41021000" />
     </task>
     <servers />
   </component>
